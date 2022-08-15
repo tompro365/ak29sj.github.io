@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <h1 id="title"></h1>
+
+    <script>
+        document.getElementById("title").innerHTML = "Learning JAVASCRIPT";
+    </script>
+
+    <button type="button" onclick="verification()" class="button-confirm">Lấy mã xác nhận</button><br>
+
+    <script class="button-onclick">
+        function verification() {
+            document.write("<h2>" + k49 + " " + pi + " " + k50);
+            document.write("<br>");
+            document.write("Bạn hãy copy đoạn mã này");
+            document.write("<br>");
+            document.write("Bạn hãy ctrl r");
+        }
+    </script>
+
+    <br>
+
+    <button type="button" onclick="guide()" class="guide">Hướng dẫn</button><br>
+
+    <script class="button-onclick">
+        function guide() {
+            let k53 = prompt(k52)
+            if (k53 == k51) {
+                document.write("<h1>" + "Hãy ctrl r rồi ctrl a" + "</h1>")
+            }
+            else {
+                alert("Bạn đã nhập sai")
+            }
+        }
+    </script>
+
+    <br>
+        
+    <button type="button" onclick="myFunction()" class="button-o5-council">Click vào đây để biết cuộc trò chuyện của o5 council</button>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <b><p id="demo4"></p></b>
+
+    <script class="button-onclick">
+        function myFunction() {
+            document.getElementById("demo1").innerHTML = "o5-██: o5 council, có vẻ cuộc trò chuyện của chúng ta đang bị theo dõi. Bởi ███ ████ ███";
+            document.getElementById("demo2").innerHTML = "o5-██: Thật không o5-██ ?";
+            document.getElementById("demo3").innerHTML = "o5-██: Đây chỉ sflfà thông tin mà tôi vừa nhận được từ MTF Alpha-1 mà thôi. Nhưng để để phòng, tôi yêu cầu tất cả o5 council thoát khỏi cuộc họp";
+            document.getElementById("demo4").innerHTML = "END ?";
+            document.getElementById("demo5").innerHTML = "";
+        }
+    </script>
+</body>
+</html>

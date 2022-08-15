@@ -1,0 +1,190 @@
+Viết vào một phần tử HTML, sử dụng innerHTML.
+Viết vào đầu ra HTML bằng cách sử dụng document.write().
+Viết vào một hộp cảnh báo, sử dụng window.alert().
+Ghi vào bảng điều khiển của trình duyệt bằng cách sử dụng console.log().
+confirm vào thông báo tùy chọn ok hoặc cancel
+prompt vào thông báo nhập
+
+
+var	Khai báo một biến
+let	Khai báo một biến khối
+const	Khai báo một hằng số khối
+if	Đánh dấu một khối câu lệnh sẽ được thực thi theo một điều kiện
+switch	Đánh dấu một khối câu lệnh sẽ được thực thi trong các trường hợp khác nhau
+for	Đánh dấu một khối câu lệnh sẽ được thực thi trong một vòng lặp
+function	Khai báo một hàm
+return	Thoát khỏi một chức năng
+try	Triển khai xử lý lỗi cho một khối câu lệnh
+
+
+
+Mình đã học đến https://www.w3schools.com/js/js_variables.asp
+
+Bây giờ là https://www.w3schools.com/js/js_operators.asp
+
+Bạn có thể sử dụng typeoftoán tử JavaScript để tìm loại biến JavaScript.
+
+Toán tử typeoftrả về kiểu của một biến hoặc một biểu thức:
+
+https://www.w3schools.com/js/js_operators.asp
+
+
+
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+
+Operator	Description
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+Operator	Description
+&&	logical and
+||	logical or
+!	logical not
+
+
+
+
+
+
+
+Operator	Description
+typeof	Returns the type of a variable
+instanceof	Returns true if an object is an instance of an object type
+
+
+
+
+&	AND	5 & 1	0101 & 0001	0001	 1
+|	OR	5 | 1	0101 | 0001	0101	 5
+~	NOT	~ 5	 ~0101	1010	 10
+^	XOR	5 ^ 1	0101 ^ 0001	0100	 4
+<<	left shift	5 << 1	0101 << 1	1010	 10
+>>	right shift	5 >> 1	0101 >> 1	0010	  2
+>>>	unsigned right shift	5 >>> 1	0101 >>> 1	0010	  2
+
+
+
+https://www.w3schools.com/js/js_datatypes.asp
+
+
+https://www.w3schools.com/js/js_objects.asp
+
+onchange	Một phần tử HTML đã được thay đổi
+onclick	The user clicks an HTML element
+onmouseover	Người dùng di chuyển chuột qua một phần tử HTML
+onmouseout	Người dùng di chuyển chuột khỏi phần tử HTML
+onkeydown	Người dùng nhấn một phím bàn phím
+onload		Trình duyệt đã tải xong trang
+
+Code	Result	Description
+\'	'	Single quote
+\"	"	Double quote
+\\	\	Backslash
+
+https://www.w3schools.com/js/js_string_methods.asp
+
+
+slice(start, end)
+substring(start, end)
+substr(start, length)
+
+https://www-w3schools-com.translate.goog/js/js_string_search.asp?_x_tr_sl=auto&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=op
+
+    String indexOf()
+    String lastIndexOf()
+    String startsWith()
+    String endsWith()
+
+
+Khi bạn hiển thị một đối tượng ngày tháng trong HTML, nó sẽ tự động được chuyển đổi thành một chuỗi, với toString()phương thức.
+
+https://www-w3schools-com.translate.goog/js/js_comparisons.asp?_x_tr_sl=auto&_x_tr_tl=vi&_x_tr_hl=vi
+
+https://www-w3schools-com.translate.goog/js/js_if_else.asp?_x_tr_sl=auto&_x_tr_tl=vi&_x_tr_hl=vi
+
+
+
+
+    Sử dụng ifđể chỉ định một khối mã sẽ được thực thi, nếu một điều kiện được chỉ định là đúng
+    Sử dụng elseđể chỉ định một khối mã sẽ được thực thi, nếu điều kiện tương tự là sai
+    Sử dụng else ifđể chỉ định một điều kiện mới để kiểm tra, nếu điều kiện đầu tiên là sai
+    Sử dụng switchđể chỉ định nhiều khối mã thay thế sẽ được thực thi
+
+
+https://www-w3schools-com.translate.goog/js/js_switch.asp?_x_tr_sl=auto&_x_tr_tl=vi&_x_tr_hl=vi
+
+Khi JavaScript tiếp cận một breaktừ khóa, nó sẽ thoát ra khỏi khối chuyển đổi.
+Từ defaultkhóa chỉ định mã để chạy nếu không có đối sánh chữ hoa chữ thường:
+
+
+https://www-w3schools-com.translate.goog/js/js_loop_for.asp?_x_tr_sl=auto&_x_tr_tl=vi&_x_tr_hl=vi
+
+    for- lặp qua một khối mã nhiều lần
+    for/in- lặp qua các thuộc tính của một đối tượng
+    for/of- lặp qua các giá trị của một đối tượng có thể lặp lại
+    while- lặp qua một khối mã trong khi một điều kiện được chỉ định là đúng
+    do/while- cũng lặp lại qua một khối mã trong khi một điều kiện được chỉ định là đúng
+
+
+
+
+    Câu breaklệnh "nhảy ra" của một vòng lặp.
+
+Câu continuelệnh "nhảy qua" một lần lặp trong vòng lặp.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
